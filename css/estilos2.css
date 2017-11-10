@@ -1,31 +1,47 @@
+html {
+	font-size: 25px;
+  }
+
+@media screen and (max-width: 550px) {
+	html {
+		font-size: 10px;
+		}
+}
+@media screen and (min-width: 551px) and (max-width: 700px) {
+	html {
+		font-size: 14px;
+		}
+}
+
+@media screen and (min-width: 701px) and (max-width: 1010px) {
+	html {
+		font-size: 18px;
+		}
+}	
 .transparente{
 	background-color: rgba(255,255,255,0.9);
 }
 .header2{
 	background-color:rgba(255,255,255,0);
 }
-.foto{
-	background-image: ("./images/backgrundimage.jpg")
-}
-.imagen1{
-	height: 5%;
-}
 .seccion2{
-	padding: 85px 0px;
+	padding: 10% 0px;
+	width: 100%;
 }
-.seccion2 p{
-    font-size: 18px;
+.seccion2 p, .lead{
+    font-size: 1.5rem;
 }
 .h1texto{
-	font-size: 64px;
+	font-size: 4rem;
 }
 .horarios{
-	background: #f75454;
-	/*background: #6f5499;*/
 	background: lightgrey;
-	/*color:white;*/
-	padding: 100px 0px;
+	padding: 10% 0px;
 }
 .horarios p{
-   font-size: 18px;
+   font-size: 1.5rem;
+}
+.image{
+	width: 100%;
+	height: auto;
 }
